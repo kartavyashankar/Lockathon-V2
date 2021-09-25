@@ -2070,11 +2070,13 @@ svg {
 .card {
   background: #222;
   cursor: crosshair;
-  height: 300px;
+  height: 40vh;
+  min-width: 300px;
+  min-height: 300px;
   transform-style: preserve-3d;
   transition: transform 0.4s ease 0s;
   -webkit-transition: -webkit-transform 0.4s ease 0s;
-  width: 90%;
+  width: 40vh;
   border-radius:10px;
   box-shadow: -1rem 0 3rem #000;
   -webkit-animation: giro 1s 1;
@@ -3049,8 +3051,13 @@ svg {
 
         svg {
             fill: #000000;
-        }
+        };
     }
+}
+
+.schedule1 {
+  height: 500px;
+  width: 100%;  
 }
 
 /*media=768px*/
