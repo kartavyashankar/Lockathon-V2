@@ -45,11 +45,13 @@ p_1.addEventListener("click",function(){
     p_img1.style.display="none";
     console.log("clicked");
     p_value1.style.display="block";
-    p_1.textContent="UntamedDragon"
+    p_1.textContent="BACK"
     p_img2.style.display="block";
     p_value2.style.display="none";
+    p_2.textContent="RUNNER-UP";
      p_img3.style.display="block";
     p_value3.style.display="none";
+    p_3.textContent="BEST MECH-HACK";
 
 
 
@@ -70,11 +72,13 @@ p_2.addEventListener("click",function(){
     p_img2.style.display="none";
     console.log("clicked");
     p_value2.style.display="block";
-    p_2.textContent="AIDER"
+    p_2.textContent="BACK"
     p_img1.style.display="block";
     p_value1.style.display="none";
+    p_1.textContent="WINNER";
      p_img3.style.display="block";
     p_value3.style.display="none";
+    p_3.textContent="BEST MECH-HACK";
 
 
   }
@@ -94,11 +98,13 @@ p_3.addEventListener("click",function(){
     p_img3.style.display="none";
     console.log("clicked");
     p_value3.style.display="block";
-    p_3.textContent="noob_master"
+    p_3.textContent="BACK"
     p_img2.style.display="block";
     p_value2.style.display="none";
+    p_2.textContent="RUNNER-UP";
      p_img1.style.display="block";
     p_value1.style.display="none";
+    p_1.textContent="WINNER";
 
 
   }
